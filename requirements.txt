@@ -1,0 +1,9 @@
+psycopg2==2.7.3.2
+django-suit==0.2.25
+tweepy==3.5.0
+boto==2.48.0
+django-background-tasks==1.1.12
+djangorestframework==3.7.7
+social-auth-app-django==2.1.0
+bs4==0.0.1
+requests==2.18.4

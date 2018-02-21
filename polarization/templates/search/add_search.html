@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/search/add/" method="post">
+        {% csrf_token %}
+        <label for="keyword">Keyword</label>
+        <input type="text" id="keyword" name="keyword">
+        <br>
+        <label for="language">Language</label>
+        <input type="text" id="language" name="language">
+        <p>Buraya başlangıç tarihi gelecek</p>
+        <p>Buraya bitiş tarihi gelecek</p>
+        <button type="submit">Add Search</button>
+    </form>
+</body>
+</html>
